@@ -1,0 +1,46 @@
+{
+  "name": "i18n-keys",
+  "version": "1.0.0",
+  "description": "Specify your translation key from typed object instead from a string",
+  "main": "index.js",
+  "author": "Wojciech Cendrzak",
+  "license": "MIT",
+
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "yarn lint && jest",
+    "coveralls": "jest --coverage && coveralls < coverage/lcov.info",
+    "eslint": "eslint --project tsconfig.json 'src/**/*.{ts}'",
+    "tsc": "tsc --project tsconfig.json --skipLibCheck --noEmit",
+    "lint": "yarn eslint && yarn tsc",
+    "clean": "rimraf dist tsc",
+    "build": "yarn clean && yarn lint && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WojciechCendrzak/i18n-keys.git"
+  },
+  "prepublish": "tsc",
+  "keywords": [
+    "i18n",
+    "i18next",
+    "internationalization",
+    "key"
+  ],
+  "bugs": {
+    "url": "https://github.com/WojciechCendrzak/i18n-keys/issues"
+  },
+  "homepage": "https://github.com/WojciechCendrzak/i18n-keys/blob/main/README.md",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "26.0.23",
+    "@types/node": "15.6.0",
+    "coveralls": "3.1.0",
+    "jest": "26.6.3",
+    "prettier": "2.3.0",
+    "rimraf": "3.0.2",
+    "ts-jest": "26.5.6",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "4.2.4"
+  }
+}
