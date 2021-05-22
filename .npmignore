@@ -1,7 +1,9 @@
+coverage
 src
 example
-test
 .editorconfig
+.eslintignore
+.eslintrc
 .prettierrc.json
 jest.config.js
 tsconfig.json

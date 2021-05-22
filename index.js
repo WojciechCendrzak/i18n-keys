@@ -1,7 +1,7 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.getTranslationKeys = void 0;
-var keys_1 = require('./keys');
+var keys_1 = require('./dist/keys');
 Object.defineProperty(exports, 'getTranslationKeys', {
   enumerable: true,
   get: function () {

@@ -1,6 +1,6 @@
 {
   "name": "i18n-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Specify your translation key from typed object instead from a string",
   "main": "index.js",
   "author": "Wojciech Cendrzak",

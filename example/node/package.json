@@ -1,0 +1,13 @@
+{
+  "name": "beprofiler-example",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "i18next": "^20.3.0",
+    "i18n-keys": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
