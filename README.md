@@ -9,7 +9,7 @@ package.json
 - fix coverall
 - update script build, lint
 - remove script tsc
-- tsconfig.json - is it needed ?
+- tsconfig.json - is it needed?
 
 readme
 

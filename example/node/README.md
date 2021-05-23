@@ -2,7 +2,7 @@
 
 ## How to run
 
-- Make sure you have `ts-node` installed globaly
+- Make sure you have `ts-node` installed globally
 
 - Build package first (at top level)
 
