@@ -1,11 +1,8 @@
 TODO:
 
-package.json
-
+package.json:
 - replace tsc with typescript
 - fix coverall
-- update script build, lint
-- remove script tsc
-- add pluralization support
 
-- avoid to run test on dist folder
+feature:
+- add pluralization support
