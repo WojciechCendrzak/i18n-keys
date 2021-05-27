@@ -18,7 +18,7 @@ you can access translation key in that way:
 i18next.t(translationKeys.homePage.header.buttons.signIn.title);
 ```
 
-The only thing you need to to is to initialize `translationKeys` object as one liner:
+The only thing you need to do is to initialize `translationKeys` object like:
 
 ```ts
 import en from './en.json'; // or `./en.ts`
@@ -36,7 +36,7 @@ i18next.init({
 const translationKeys = getTranslationKeys(en);
 ```
 
-You can enjoy the benefits of `TypeScript` as well as **IntelliSense** and `linting`.
+You can enjoy the benefits of `TypeScript` as well as `IntelliSense` of your IDE and `linting`.
 
 Then you can use like this:
 
@@ -44,18 +44,4 @@ Then you can use like this:
 const text = i18next.t(translationKeys.homePage.header.buttons.signIn.title);
 ```
 
-TODO:
-
-package.json
-
-- replace tsc with typescript
-- fix coverall
-- update script build, lint
-- remove script tsc
-- tsconfig.json - is it needed?
-
-readme
-
-- add badges
-
-- add pluralization support
+Check the examples!

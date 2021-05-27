@@ -1,0 +1,14 @@
+TODO:
+
+package.json
+
+- replace tsc with typescript
+- fix coverall
+- update script build, lint
+- remove script tsc
+
+readme
+
+- add badges
+
+- add pluralization support
