@@ -7,3 +7,6 @@ package.json
 - update script build, lint
 - remove script tsc
 - add pluralization support
+
+- exclude dist/test from published file (avoid to compile by tsc)
+- avoid to run test on dist folder
