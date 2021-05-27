@@ -1,7 +1,7 @@
 {
   "name": "i18n-keys",
-  "version": "1.0.1",
-  "description": "Specify your translation key from typed object instead from a string",
+  "version": "1.0.2",
+  "description": "Specify your translation key from the typed object instead from a string",
   "main": "index.js",
   "author": "Wojciech Cendrzak",
   "license": "MIT",
@@ -23,7 +23,9 @@
     "i18n",
     "i18next",
     "internationalization",
-    "key"
+    "localazation",
+    "translation",
+    "keys"
   ],
   "bugs": {
     "url": "https://github.com/WojciechCendrzak/i18n-keys/issues"
