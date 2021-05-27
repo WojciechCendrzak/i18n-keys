@@ -9,4 +9,4 @@ jest.config.js
 tsconfig.json
 tsconfig-build.json
 todo.txt
-.travis.yaml
+.travis.yml
