@@ -1,4 +1,4 @@
-import { reduceObject } from './reduce-object';
+import { reduceObject } from './reduce';
 import { isString } from './string';
 import { TranslateCollection } from './types';
 

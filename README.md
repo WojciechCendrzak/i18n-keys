@@ -1,8 +1,13 @@
+[![Build Status](https://travis-ci.com/WojciechCendrzak/i18n-keys.svg?branch=main)](https://travis-ci.org/WojciechCendrzak/i18n-keys)
+[![Coverage Status](https://coveralls.io/repos/github/WojciechCendrzak/i18n-keys/badge.svg)](https://coveralls.io/github/WojciechCendrzak/i18n-keys)
+[![npm version](https://badge.fury.io/js/i18n-keys.svg)](https://badge.fury.io/js/i18n-keys)
+![npm bundle size](https://img.shields.io/bundlephobia/min/i18n-keys)
+
 # i18n-keys
 
 This library will help to access the translation field from `JSON` / `TypeScript` file and take advantage of TypeScript.
 
-It is useful when the localization file grows. Works well for `i18n` and `i18next` and for any Front End or Back End libraries.
+It is useful when the localization file grows. Works fine with `i18n`,` i18next`.
 
 The idea is simple, handy, and quite helpful:
 
@@ -36,7 +41,7 @@ i18next.init({
 const translationKeys = getTranslationKeys(en);
 ```
 
-You can enjoy the benefits of `TypeScript` as well as `IntelliSense` of your IDE and `linting`.
+You can enjoy the benefits of `TypeScript` as well as `IntelliSense` of your IDE and `lint`.
 
 Then you can use like this:
 
@@ -44,4 +49,4 @@ Then you can use like this:
 const text = i18next.t(translationKeys.homePage.header.buttons.signIn.title);
 ```
 
-Check the examples!
+Check the example folder!

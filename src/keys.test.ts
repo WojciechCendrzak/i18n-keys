@@ -9,8 +9,8 @@ describe(getTranslationKeys.name, () => {
     ${{ message: 'test message' }}            | ${{ message: 'message' }}
     ${{ group: { message: 'test message' } }} | ${{ group: { message: 'group.message' } }}
     ${{ k1: { k2: '', k3: { k4: '' } } }}     | ${{ k1: { k2: 'k1.k2', k3: { k4: 'k1.k3.k4' } } }}
-  `('Translations object $translations', ({ translations, translationsKeys }) => {
-    test(`returns ${translationsKeys}`, () => {
+  `('', ({ translations, translationsKeys }) => {
+    test(`Translations object ${JSON.stringify(translations)} returns ${JSON.stringify(translationsKeys)}`, () => {
       expect(JSON.stringify(getTranslationKeys(translations), null, 2)).toBe(JSON.stringify(translationsKeys, null, 2));
     });
   });
