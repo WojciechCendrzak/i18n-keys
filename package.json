@@ -1,6 +1,6 @@
 {
   "name": "i18n-keys",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Specify your translation key from the typed object instead from a string",
   "main": "index.js",
   "author": "Wojciech Cendrzak",
@@ -14,7 +14,7 @@
     "clean": "rimraf dist tsc",
     "build": "yarn clean && yarn tsc-check && yarn tsc-build",
     "lint": "eslint . --ext .ts && yarn tsc-check",
-    "prepublish": "yarn tsc-build"
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
